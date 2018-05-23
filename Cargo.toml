@@ -1,0 +1,9 @@
+[package]
+name = "foo"
+version = "0.1.0"
+authors = ["Mathias Svensson <freaken@freaken.dk>"]
+
+[dependencies]
+tokio = { git = "https://github.com/tokio-rs/tokio.git" }
+tokio-timer = { git = "https://github.com/tokio-rs/tokio.git" }
+tokio-threadpool = { git = "https://github.com/tokio-rs/tokio.git" }
